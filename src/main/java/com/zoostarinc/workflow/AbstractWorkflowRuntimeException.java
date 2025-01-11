@@ -1,4 +1,4 @@
-package net.zoostar.workflow;
+package com.zoostarinc.workflow;
 
 public abstract class AbstractWorkflowRuntimeException extends RuntimeException {
 
