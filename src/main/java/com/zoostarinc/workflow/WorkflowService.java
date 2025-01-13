@@ -1,5 +1,5 @@
 package com.zoostarinc.workflow;
 
-public interface WorkflowService<T extends Workflowable> {
+public interface WorkflowService<T extends Workflowable<T>> {
 	T newInstance();
 }

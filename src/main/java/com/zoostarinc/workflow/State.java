@@ -1,8 +1,7 @@
 package com.zoostarinc.workflow;
 
-import java.util.List;
+import java.util.Collection;
 
-public interface State<T extends Workflowable> {
-	String toString();
-	List<Action<T>> getActions();
+public interface State <T extends Workflowable<T>> {
+	Collection<Action<T>> getActions();
 }
