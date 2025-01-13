@@ -1,6 +1,10 @@
-package com.zoostarinc.workflow;
+package com.zoostarinc.workflow.example.state;
 
 import java.util.List;
+
+import com.zoostarinc.workflow.Action;
+import com.zoostarinc.workflow.State;
+import com.zoostarinc.workflow.example.Timesheet;
 
 public class StateCreated implements State<Timesheet> {
 

@@ -1,4 +1,8 @@
-package com.zoostarinc.workflow;
+package com.zoostarinc.workflow.example.action;
+
+import com.zoostarinc.workflow.Action;
+import com.zoostarinc.workflow.example.Timesheet;
+import com.zoostarinc.workflow.example.state.StateCreated;
 
 import lombok.extern.slf4j.Slf4j;
 

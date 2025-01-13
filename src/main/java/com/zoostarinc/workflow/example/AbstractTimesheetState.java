@@ -1,4 +1,8 @@
-package com.zoostarinc.workflow;
+package com.zoostarinc.workflow.example;
+
+import com.zoostarinc.workflow.State;
+import com.zoostarinc.workflow.example.state.StateCreated;
+import com.zoostarinc.workflow.example.state.StateNew;
 
 public abstract class AbstractTimesheetState {
 
